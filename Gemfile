@@ -35,6 +35,9 @@ gem 'bootstrap-sass', '~> 3.3.3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use Rails bower thing
+gem 'bower-rails', '~> 0.9.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
